@@ -66,7 +66,7 @@ const rightEyeStyles = css`
 const FearStyled = styled(Emoji)<{ scale: number; animate: boolean }>`
   background: linear-gradient(
     to bottom,
-    var(--emoji-color-black),
+    var(--emoji-color-blue),
     var(--emoji-color-base)
   );
   background-size: 200% 200%;

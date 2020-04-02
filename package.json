@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "animated-emojis",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "main": "dist/index.js",
   "source": "src/index.ts",
