@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "animated-emojis",
-  "version": "0.0.7-1",
+  "version": "1.0.0",
   "license": "MIT",
   "main": "dist/index.js",
   "source": "src/index.ts",
@@ -11,6 +11,7 @@
     "type": "git",
     "url": "https://github.com/beerose/animated-emojis"
   },
+  "homepage": "https://github.com/beerose/animated-emojis#readme",
   "keywords": [
     "emoji",
     "animation",
