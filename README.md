@@ -4,6 +4,10 @@ Library with animated emojis.
 
 ![gif](./assets/e.gif)
 
+## Docs
+
+https://animated-emojis.netlify.com/
+
 ## Install
 
 ```sh
