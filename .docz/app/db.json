@@ -3,7 +3,7 @@
     "title": "Animated Emojis",
     "description": "My awesome app using docz",
     "menu": [],
-    "version": "0.0.7-1",
+    "version": "1.0.0",
     "repository": "https://github.com/beerose/animated-emojis",
     "native": false,
     "themeConfig": {},
@@ -81,6 +81,36 @@
             "slug": "animated-emojis",
             "depth": 1,
             "value": "Animated Emojis"
+          },
+          {
+            "slug": "components",
+            "depth": 2,
+            "value": "Components"
+          },
+          {
+            "slug": "love",
+            "depth": 3,
+            "value": "Love"
+          },
+          {
+            "slug": "hate",
+            "depth": 3,
+            "value": "Hate"
+          },
+          {
+            "slug": "fear",
+            "depth": 3,
+            "value": "Fear"
+          },
+          {
+            "slug": "happy",
+            "depth": 3,
+            "value": "Happy"
+          },
+          {
+            "slug": "crying-face",
+            "depth": 3,
+            "value": "Crying Face"
           }
         ]
       }
