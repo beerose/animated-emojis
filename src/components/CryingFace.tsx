@@ -3,7 +3,6 @@ import styled from '@emotion/styled';
 import { keyframes, css, jsx } from '@emotion/core';
 
 import { Emoji, EmojiProps } from './Emoji';
-import { colors } from './colors';
 
 const eyesAnimation = keyframes`
   5%, 25%, 50% {transform: scaleY(1.0); }
@@ -37,7 +36,7 @@ const Tear = styled.div`
   left: calc(50% - 40px);
   top: calc(50%);
 
-  background: ${colors.blue};
+  background: var(--emoji-color-blue);
   width: 20px;
   height: 20px;
   border-radius: 0 50% 50% 50%;
@@ -58,7 +57,7 @@ const Mouth = styled.div`
 
   border-radius: 50%;
   background: transparent;
-  border: 5px solid ${colors.black};
+  border: 5px solid var(--emoji-color-black);
   border-bottom-color: transparent;
   border-left-color: transparent;
   border-right-color: transparent;
@@ -73,7 +72,7 @@ const Eye = styled.div`
   width: 15px;
   height: 15px;
 
-  background: ${colors.black};
+  background: var(--emoji-color-black);
   border-radius: 50%;
 
   animation: ${eyesAnimation} 1.5s linear infinite;
@@ -89,7 +88,7 @@ const rightEyeStyles = css`
 
 const CryingFaceStyled = styled(Emoji)<{ scale: number; animate: boolean }>`
   transform: scale(${props => props.scale});
-  background: ${colors.base};
+  background: var(--emoji-color-base);
 
   ${({ animate }) =>
     animate
@@ -103,7 +102,6 @@ const CryingFaceStyled = styled(Emoji)<{ scale: number; animate: boolean }>`
             animation: none !important;
           }
         `}
-  }
 `;
 
 const Eyebrow = styled.div`
@@ -115,7 +113,7 @@ const Eyebrow = styled.div`
   top: calc(50% - 25px);
 
   border-radius: 50%;
-  border: 4px solid ${colors.black};
+  border: 4px solid var(--emoji-color-black);
   border-bottom-color: transparent;
   border-left-color: transparent;
   border-right-color: transparent;

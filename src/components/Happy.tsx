@@ -3,23 +3,23 @@ import styled from '@emotion/styled';
 import { keyframes, css, jsx } from '@emotion/core';
 
 import { Emoji, EmojiProps } from './Emoji';
-import { colors } from './colors';
 
-const getFaceAnimation = (scale: number) => keyframes`
-	25% {transform: rotate(-12deg) scale(${scale});}
-  50% {transform: rotate(12deg) scale(${scale});}
-	75% {transform: rotate(-12deg) scale(${scale});}
+const faceAnimation = keyframes`
+	25% {transform: rotate(-12deg) scale(var(--scale));}
+  50% {transform: rotate(12deg) scale(var(--scale));}
+	75% {transform: rotate(-12deg) scale(var(--scale));}
 `;
 
 const HappyStyled = styled(Emoji)<{ animate: boolean; scale: number }>`
-  transform: scale(${props => props.scale});
+  --scale: ${props => props.scale};
 
+  transform: scale(var(--scale));
   position: relative;
 
-  ${({ animate, scale }) =>
+  ${({ animate }) =>
     animate
       ? css`
-          animation: ${getFaceAnimation(scale)} 0.8s ease-in infinite;
+          animation: ${faceAnimation} 0.8s ease-in infinite;
         `
       : ''}
 `;
@@ -31,8 +31,8 @@ const Blush = styled.div`
   border-radius: 50%;
   bottom: 44px;
   left: 58px;
-  box-shadow: -35px 0px 25px 10px ${colors.angry},
-    35px 0px 25px 10px ${colors.angry};
+  box-shadow: -35px 0px 25px 10px var(--emoji-color-angry),
+    35px 0px 25px 10px var(--emoji-color-angry);
 
   position: absolute;
 `;
@@ -70,7 +70,7 @@ const Mouth = styled.div`
   top: 15px;
   border-radius: 50%;
   background: transparent;
-  border: 5px solid ${colors.black};
+  border: 5px solid var(--emoji-color-black);
   box-sizing: border-box;
   border-top-color: transparent;
   border-left-color: transparent;

@@ -3,8 +3,8 @@
     "title": "Animated Emojis",
     "description": "My awesome app using docz",
     "menu": [],
-    "version": "2.0.0-rc.41",
-    "repository": null,
+    "version": "0.0.7-1",
+    "repository": "https://github.com/beerose/animated-emojis",
     "native": false,
     "themeConfig": {},
     "separator": "-",
@@ -12,12 +12,26 @@
   },
   "entries": [
     {
+      "key": "LICENSE.md",
+      "value": {
+        "id": "37854d19817c792316d481f5beb93cc7",
+        "filepath": "LICENSE.md",
+        "fullpath": "/Users/aleksandra/workspace/emojis/emojis-lib/LICENSE.md",
+        "link": "https://github.com/beerose/animated-emojis/edit/master/LICENSE.md",
+        "slug": "license",
+        "route": "/license",
+        "name": "License",
+        "menu": "",
+        "headings": []
+      }
+    },
+    {
       "key": "README.md",
       "value": {
         "id": "04c6e90faac2675aa89e2176d2eec7d8",
         "filepath": "README.md",
         "fullpath": "/Users/aleksandra/workspace/emojis/emojis-lib/README.md",
-        "link": "",
+        "link": "https://github.com/beerose/animated-emojis/edit/master/README.md",
         "slug": "readme",
         "route": "/readme",
         "name": "Readme",
@@ -29,14 +43,24 @@
             "value": "Animated Emojis"
           },
           {
+            "slug": "api",
+            "depth": 2,
+            "value": "API"
+          },
+          {
             "slug": "setup",
             "depth": 2,
             "value": "Setup"
           },
           {
-            "slug": "run",
+            "slug": "run-docs",
             "depth": 2,
-            "value": "Run"
+            "value": "Run docs"
+          },
+          {
+            "slug": "build-lib",
+            "depth": 2,
+            "value": "Build lib"
           }
         ]
       }
@@ -49,7 +73,7 @@
         "id": "6576455a124f9aaefd860597f03a8fe4",
         "filepath": "src/index.mdx",
         "fullpath": "/Users/aleksandra/workspace/emojis/emojis-lib/src/index.mdx",
-        "link": "",
+        "link": "https://github.com/beerose/animated-emojis/edit/master/src/index.mdx",
         "slug": "src-index",
         "menu": "",
         "headings": [
@@ -69,7 +93,7 @@
         "id": "1cf85d2305e3841c3f1c4184ea0a1216",
         "filepath": "src/components/CryingFace.mdx",
         "fullpath": "/Users/aleksandra/workspace/emojis/emojis-lib/src/components/CryingFace.mdx",
-        "link": "",
+        "link": "https://github.com/beerose/animated-emojis/edit/master/src/components/CryingFace.mdx",
         "slug": "src-components-crying-face",
         "route": "/src-components-crying-face",
         "headings": [
@@ -114,7 +138,7 @@
         "id": "350989b17b0ac20c1b5687694cc47032",
         "filepath": "src/components/Fear.mdx",
         "fullpath": "/Users/aleksandra/workspace/emojis/emojis-lib/src/components/Fear.mdx",
-        "link": "",
+        "link": "https://github.com/beerose/animated-emojis/edit/master/src/components/Fear.mdx",
         "slug": "src-components-fear",
         "route": "/src-components-fear",
         "headings": [
@@ -154,7 +178,7 @@
         "id": "8b1bbeba0a96c0d697bc4d3d63cd9222",
         "filepath": "src/components/Happy.mdx",
         "fullpath": "/Users/aleksandra/workspace/emojis/emojis-lib/src/components/Happy.mdx",
-        "link": "",
+        "link": "https://github.com/beerose/animated-emojis/edit/master/src/components/Happy.mdx",
         "slug": "src-components-happy",
         "route": "/src-components-happy",
         "headings": [
@@ -194,7 +218,7 @@
         "id": "7458e0b2a23f238e3ab3290f492789da",
         "filepath": "src/components/Hate.mdx",
         "fullpath": "/Users/aleksandra/workspace/emojis/emojis-lib/src/components/Hate.mdx",
-        "link": "",
+        "link": "https://github.com/beerose/animated-emojis/edit/master/src/components/Hate.mdx",
         "slug": "src-components-hate",
         "route": "/src-components-hate",
         "headings": [
@@ -234,7 +258,7 @@
         "id": "0669cb0f2ebc435f26f933be179313ec",
         "filepath": "src/components/Love.mdx",
         "fullpath": "/Users/aleksandra/workspace/emojis/emojis-lib/src/components/Love.mdx",
-        "link": "",
+        "link": "https://github.com/beerose/animated-emojis/edit/master/src/components/Love.mdx",
         "slug": "src-components-love",
         "route": "/src-components-love",
         "headings": [
@@ -269,6 +293,44 @@
   ],
   "props": [
     {
+      "key": "src/index.ts",
+      "value": [
+        {
+          "description": "",
+          "displayName": "src",
+          "methods": [],
+          "props": {
+            "size": {
+              "defaultValue": null,
+              "description": "",
+              "name": "size",
+              "parent": {
+                "fileName": "/Users/aleksandra/workspace/emojis/emojis-lib/src/components/Emoji.tsx",
+                "name": "EmojiProps"
+              },
+              "required": false,
+              "type": {
+                "name": "number | undefined"
+              }
+            },
+            "animate": {
+              "defaultValue": null,
+              "description": "",
+              "name": "animate",
+              "parent": {
+                "fileName": "/Users/aleksandra/workspace/emojis/emojis-lib/src/components/Emoji.tsx",
+                "name": "EmojiProps"
+              },
+              "required": false,
+              "type": {
+                "name": "boolean | undefined"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
       "key": "src/components/CryingFace.tsx",
       "value": [
         {
@@ -283,7 +345,7 @@
               "description": "",
               "name": "showTear",
               "parent": {
-                "fileName": "src/components/CryingFace.tsx",
+                "fileName": "/Users/aleksandra/workspace/emojis/emojis-lib/src/components/CryingFace.tsx",
                 "name": "CryingFaceProps"
               },
               "required": false,
@@ -499,6 +561,44 @@
               "defaultValue": {
                 "value": true
               },
+              "description": "",
+              "name": "animate",
+              "parent": {
+                "fileName": "/Users/aleksandra/workspace/emojis/emojis-lib/src/components/Emoji.tsx",
+                "name": "EmojiProps"
+              },
+              "required": false,
+              "type": {
+                "name": "boolean | undefined"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "src/components/index.ts",
+      "value": [
+        {
+          "description": "",
+          "displayName": "components",
+          "methods": [],
+          "props": {
+            "size": {
+              "defaultValue": null,
+              "description": "",
+              "name": "size",
+              "parent": {
+                "fileName": "/Users/aleksandra/workspace/emojis/emojis-lib/src/components/Emoji.tsx",
+                "name": "EmojiProps"
+              },
+              "required": false,
+              "type": {
+                "name": "number | undefined"
+              }
+            },
+            "animate": {
+              "defaultValue": null,
               "description": "",
               "name": "animate",
               "parent": {

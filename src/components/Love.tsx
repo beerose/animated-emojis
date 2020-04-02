@@ -3,7 +3,6 @@ import styled from '@emotion/styled';
 import { keyframes, css } from '@emotion/core';
 
 import { Emoji, EmojiProps } from './Emoji';
-import { colors } from './colors';
 
 const animation = keyframes`
 	25% {transform: scale(1.1);}
@@ -11,7 +10,7 @@ const animation = keyframes`
 `;
 
 const LoveStyled = styled(Emoji)<{ scale: number; animate: boolean }>`
-  background: ${colors.love};
+  background: var(--emoji-color-love);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,7 +34,7 @@ const HeartWrapper = styled.div`
 const Heart = styled.div`
   width: 40px;
   height: 64px;
-  background: ${colors.white};
+  background: var(--emoji-color-white);
   border-radius: 20px 20px 0 0;
   padding-right: 1px;
 `;

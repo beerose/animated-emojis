@@ -3,7 +3,6 @@ import styled from '@emotion/styled';
 import { keyframes, css, jsx } from '@emotion/core';
 
 import { Emoji, EmojiProps } from './Emoji';
-import { colors } from './colors';
 
 const eyesAnimation = keyframes`
 	50% {transform: scaleY(1.1); }
@@ -37,8 +36,8 @@ const Mouth = styled.div`
 
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
-  background: ${colors.black};
-  border: 5px solid ${colors.black};
+  background: var(--emoji-color-black);
+  border: 5px solid var(--emoji-color-black);
 
   animation: ${mouthAnimation} 2.5s ease-in-out infinite;
 `;
@@ -50,7 +49,7 @@ const Eye = styled.div`
   width: 12px;
   height: 17px;
 
-  background: ${colors.black};
+  background: var(--emoji-color-black);
   border-radius: 50%;
 
   animation: ${eyesAnimation} 2.5s linear infinite;
@@ -65,7 +64,11 @@ const rightEyeStyles = css`
 `;
 
 const FearStyled = styled(Emoji)<{ scale: number; animate: boolean }>`
-  background: linear-gradient(to bottom, ${colors.blue}, ${colors.base});
+  background: linear-gradient(
+    to bottom,
+    var(--emoji-color-black),
+    var(--emoji-color-base)
+  );
   background-size: 200% 200%;
   background-position: 100% 100%;
 
@@ -92,7 +95,7 @@ const Eyebrow = styled.div`
   top: calc(50% - 25px);
 
   border-radius: 50%;
-  border: 4px solid ${colors.black};
+  border: 4px solid var(--emoji-color-black);
   border-bottom-color: transparent;
   border-left-color: transparent;
   border-right-color: transparent;

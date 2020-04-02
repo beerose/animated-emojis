@@ -3,7 +3,6 @@ import styled from '@emotion/styled';
 import { jsx, keyframes, css } from '@emotion/core';
 
 import { Emoji, EmojiProps } from './Emoji';
-import { colors } from './colors';
 
 const faceAnimation = keyframes`
   35%, 60% {transform: translateX(0) translateY(10px) scale(0.9);}
@@ -16,7 +15,10 @@ const mouthAnimation = keyframes`
 `;
 
 const HateStyled = styled(Emoji)<{ animate: boolean; scale: number }>`
-  background: linear-gradient(${colors.angry} -10%, ${colors.base});
+  background: linear-gradient(
+    var(--emoji-color-angry) -10%,
+    var(--emoji-color-base)
+  );
   background-size: 100%;
 
   transform: scale(${props => props.scale});
@@ -42,7 +44,7 @@ const Mouth = styled.div`
   height: 16px;
   left: calc(50% - 18px);
   top: 95px;
-  background: ${colors.black};
+  background: var(--emoji-color-black);
   border-radius: 50%;
 
   position: absolute;
@@ -58,7 +60,7 @@ const Eyebrow = styled.div`
   box-sizing: border-box;
 
   border-radius: 50%;
-  border: 5px solid ${colors.black};
+  border: 5px solid var(--emoji-color-black);
   border-top-color: transparent;
   border-left-color: transparent;
   border-right-color: transparent;

@@ -1,34 +1,42 @@
 {
   "private": false,
   "name": "animated-emojis",
-  "version": "0.0.1",
+  "version": "0.0.7-1",
   "license": "MIT",
   "main": "dist/index.js",
-  "umd:main": "dist/index.umd.js",
   "source": "src/index.ts",
   "types": "dist/index.d.ts",
-  "files": [
-    "src/",
-    "doczrc.js",
-    "tsconfig.json",
-    "package.json"
+  "module": "dist/index.esm.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/beerose/animated-emojis"
+  },
+  "keywords": [
+    "emoji",
+    "animation",
+    "css"
   ],
   "scripts": {
     "docz:dev": "docz dev",
     "docz:build": "docz build",
     "dev": "microbundle watch",
-    "build": "microbundle"
+    "build": "microbundle --no-compress"
   },
   "dependencies": {
-    "@emotion/core": "^10.0.14",
     "@emotion/styled": "^10.0.14",
-    "docz": "latest",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "@emotion/core": "^10.0.14"
   },
   "devDependencies": {
     "@types/react": "^16.8.23",
     "@types/react-dom": "^16.8.4",
-    "microbundle": "^0.11.0"
+    "babel-plugin-emotion": "^10.0.29",
+    "babel-preset-modules": "0.0.2",
+    "docz": "latest",
+    "microbundle": "^0.11.0",
+    "react": "16.8.2",
+    "react-dom": "16.8.2"
+  },
+  "peerDependencies": {
+    "@emotion/styled-base": "^10.0.31"
   }
 }
