@@ -4,6 +4,12 @@ Library with animated emojis.
 
 ![gif](./assets/e.gif)
 
+## Install
+
+```sh
+yarn add animated-emojis # npm i animated-emojis
+```
+
 ## API
 
 ```
