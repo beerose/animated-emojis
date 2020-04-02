@@ -1,0 +1,40 @@
+---
+name: Hate
+menu: Components
+---
+
+import { Playground, Props } from 'docz';
+import { Hate } from './Hate.tsx';
+
+# Hate Emoji
+
+## Properties
+
+<Props of={Hate} />
+
+## Basic usage
+
+<Playground>
+  <Hate />
+</Playground>
+
+## Different sizes
+
+<Playground>
+  <div style={{display: "flex", padding: 20, flexWrap: 'wrap'}}>
+    <Hate size={3} />
+    <Hate size={4} />
+    <Hate size={5} />
+    <Hate size={6} />
+    <Hate size={7} />
+    <Hate size={8} />
+    <Hate size={9} />
+    <Hate size={10} />
+  </div>
+</Playground>
+
+## No animations
+
+<Playground>
+  <Hate animate={false} />
+</Playground>

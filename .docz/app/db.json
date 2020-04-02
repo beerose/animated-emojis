@@ -1,0 +1,518 @@
+{
+  "config": {
+    "title": "Animated Emojis",
+    "description": "My awesome app using docz",
+    "menu": [],
+    "version": "2.0.0-rc.41",
+    "repository": null,
+    "native": false,
+    "themeConfig": {},
+    "separator": "-",
+    "typescript": true
+  },
+  "entries": [
+    {
+      "key": "README.md",
+      "value": {
+        "id": "04c6e90faac2675aa89e2176d2eec7d8",
+        "filepath": "README.md",
+        "fullpath": "/Users/aleksandra/workspace/emojis/emojis-lib/README.md",
+        "link": "",
+        "slug": "readme",
+        "route": "/readme",
+        "name": "Readme",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "animated-emojis",
+            "depth": 1,
+            "value": "Animated Emojis"
+          },
+          {
+            "slug": "setup",
+            "depth": 2,
+            "value": "Setup"
+          },
+          {
+            "slug": "run",
+            "depth": 2,
+            "value": "Run"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/index.mdx",
+      "value": {
+        "name": "Animated Emojis",
+        "route": "/",
+        "id": "6576455a124f9aaefd860597f03a8fe4",
+        "filepath": "src/index.mdx",
+        "fullpath": "/Users/aleksandra/workspace/emojis/emojis-lib/src/index.mdx",
+        "link": "",
+        "slug": "src-index",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "animated-emojis",
+            "depth": 1,
+            "value": "Animated Emojis"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/components/CryingFace.mdx",
+      "value": {
+        "name": "CryingFace",
+        "menu": "Components",
+        "id": "1cf85d2305e3841c3f1c4184ea0a1216",
+        "filepath": "src/components/CryingFace.mdx",
+        "fullpath": "/Users/aleksandra/workspace/emojis/emojis-lib/src/components/CryingFace.mdx",
+        "link": "",
+        "slug": "src-components-crying-face",
+        "route": "/src-components-crying-face",
+        "headings": [
+          {
+            "slug": "crying-face",
+            "depth": 1,
+            "value": "Crying Face"
+          },
+          {
+            "slug": "properties",
+            "depth": 2,
+            "value": "Properties"
+          },
+          {
+            "slug": "basic-usage",
+            "depth": 2,
+            "value": "Basic usage"
+          },
+          {
+            "slug": "different-sizes",
+            "depth": 2,
+            "value": "Different sizes"
+          },
+          {
+            "slug": "without-the-tear",
+            "depth": 2,
+            "value": "Without the tear"
+          },
+          {
+            "slug": "no-animations",
+            "depth": 2,
+            "value": "No animations"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/components/Fear.mdx",
+      "value": {
+        "name": "Fear",
+        "menu": "Components",
+        "id": "350989b17b0ac20c1b5687694cc47032",
+        "filepath": "src/components/Fear.mdx",
+        "fullpath": "/Users/aleksandra/workspace/emojis/emojis-lib/src/components/Fear.mdx",
+        "link": "",
+        "slug": "src-components-fear",
+        "route": "/src-components-fear",
+        "headings": [
+          {
+            "slug": "fear-emoji",
+            "depth": 1,
+            "value": "Fear Emoji"
+          },
+          {
+            "slug": "properties",
+            "depth": 2,
+            "value": "Properties"
+          },
+          {
+            "slug": "basic-usage",
+            "depth": 2,
+            "value": "Basic usage"
+          },
+          {
+            "slug": "different-sizes",
+            "depth": 2,
+            "value": "Different sizes"
+          },
+          {
+            "slug": "no-animations",
+            "depth": 2,
+            "value": "No animations"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/components/Happy.mdx",
+      "value": {
+        "name": "Happy",
+        "menu": "Components",
+        "id": "8b1bbeba0a96c0d697bc4d3d63cd9222",
+        "filepath": "src/components/Happy.mdx",
+        "fullpath": "/Users/aleksandra/workspace/emojis/emojis-lib/src/components/Happy.mdx",
+        "link": "",
+        "slug": "src-components-happy",
+        "route": "/src-components-happy",
+        "headings": [
+          {
+            "slug": "happy-emoji",
+            "depth": 1,
+            "value": "Happy Emoji"
+          },
+          {
+            "slug": "properties",
+            "depth": 2,
+            "value": "Properties"
+          },
+          {
+            "slug": "basic-usage",
+            "depth": 2,
+            "value": "Basic usage"
+          },
+          {
+            "slug": "different-sizes",
+            "depth": 2,
+            "value": "Different sizes"
+          },
+          {
+            "slug": "no-animations",
+            "depth": 2,
+            "value": "No animations"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/components/Hate.mdx",
+      "value": {
+        "name": "Hate",
+        "menu": "Components",
+        "id": "7458e0b2a23f238e3ab3290f492789da",
+        "filepath": "src/components/Hate.mdx",
+        "fullpath": "/Users/aleksandra/workspace/emojis/emojis-lib/src/components/Hate.mdx",
+        "link": "",
+        "slug": "src-components-hate",
+        "route": "/src-components-hate",
+        "headings": [
+          {
+            "slug": "hate-emoji",
+            "depth": 1,
+            "value": "Hate Emoji"
+          },
+          {
+            "slug": "properties",
+            "depth": 2,
+            "value": "Properties"
+          },
+          {
+            "slug": "basic-usage",
+            "depth": 2,
+            "value": "Basic usage"
+          },
+          {
+            "slug": "different-sizes",
+            "depth": 2,
+            "value": "Different sizes"
+          },
+          {
+            "slug": "no-animations",
+            "depth": 2,
+            "value": "No animations"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/components/Love.mdx",
+      "value": {
+        "name": "Love",
+        "menu": "Components",
+        "id": "0669cb0f2ebc435f26f933be179313ec",
+        "filepath": "src/components/Love.mdx",
+        "fullpath": "/Users/aleksandra/workspace/emojis/emojis-lib/src/components/Love.mdx",
+        "link": "",
+        "slug": "src-components-love",
+        "route": "/src-components-love",
+        "headings": [
+          {
+            "slug": "love-emoji",
+            "depth": 1,
+            "value": "Love Emoji"
+          },
+          {
+            "slug": "properties",
+            "depth": 2,
+            "value": "Properties"
+          },
+          {
+            "slug": "basic-usage",
+            "depth": 2,
+            "value": "Basic usage"
+          },
+          {
+            "slug": "different-sizes",
+            "depth": 2,
+            "value": "Different sizes"
+          },
+          {
+            "slug": "no-animations",
+            "depth": 2,
+            "value": "No animations"
+          }
+        ]
+      }
+    }
+  ],
+  "props": [
+    {
+      "key": "src/components/CryingFace.tsx",
+      "value": [
+        {
+          "description": "",
+          "displayName": "CryingFace",
+          "methods": [],
+          "props": {
+            "showTear": {
+              "defaultValue": {
+                "value": true
+              },
+              "description": "",
+              "name": "showTear",
+              "parent": {
+                "fileName": "src/components/CryingFace.tsx",
+                "name": "CryingFaceProps"
+              },
+              "required": false,
+              "type": {
+                "name": "boolean | undefined"
+              }
+            },
+            "size": {
+              "defaultValue": {
+                "value": 3
+              },
+              "description": "",
+              "name": "size",
+              "parent": {
+                "fileName": "/Users/aleksandra/workspace/emojis/emojis-lib/src/components/Emoji.tsx",
+                "name": "EmojiProps"
+              },
+              "required": false,
+              "type": {
+                "name": "number | undefined"
+              }
+            },
+            "animate": {
+              "defaultValue": {
+                "value": true
+              },
+              "description": "",
+              "name": "animate",
+              "parent": {
+                "fileName": "/Users/aleksandra/workspace/emojis/emojis-lib/src/components/Emoji.tsx",
+                "name": "EmojiProps"
+              },
+              "required": false,
+              "type": {
+                "name": "boolean | undefined"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "src/components/Emoji.tsx",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Emoji",
+          "methods": [],
+          "props": {
+            "theme": {
+              "defaultValue": null,
+              "description": "",
+              "name": "theme",
+              "required": false,
+              "type": {
+                "name": "object | undefined"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "src/components/Fear.tsx",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Fear",
+          "methods": [],
+          "props": {
+            "size": {
+              "defaultValue": {
+                "value": 3
+              },
+              "description": "",
+              "name": "size",
+              "parent": {
+                "fileName": "/Users/aleksandra/workspace/emojis/emojis-lib/src/components/Emoji.tsx",
+                "name": "EmojiProps"
+              },
+              "required": false,
+              "type": {
+                "name": "number | undefined"
+              }
+            },
+            "animate": {
+              "defaultValue": {
+                "value": true
+              },
+              "description": "",
+              "name": "animate",
+              "parent": {
+                "fileName": "/Users/aleksandra/workspace/emojis/emojis-lib/src/components/Emoji.tsx",
+                "name": "EmojiProps"
+              },
+              "required": false,
+              "type": {
+                "name": "boolean | undefined"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "src/components/Happy.tsx",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Happy",
+          "methods": [],
+          "props": {
+            "size": {
+              "defaultValue": {
+                "value": 3
+              },
+              "description": "",
+              "name": "size",
+              "parent": {
+                "fileName": "/Users/aleksandra/workspace/emojis/emojis-lib/src/components/Emoji.tsx",
+                "name": "EmojiProps"
+              },
+              "required": false,
+              "type": {
+                "name": "number | undefined"
+              }
+            },
+            "animate": {
+              "defaultValue": {
+                "value": true
+              },
+              "description": "",
+              "name": "animate",
+              "parent": {
+                "fileName": "/Users/aleksandra/workspace/emojis/emojis-lib/src/components/Emoji.tsx",
+                "name": "EmojiProps"
+              },
+              "required": false,
+              "type": {
+                "name": "boolean | undefined"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "src/components/Hate.tsx",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Hate",
+          "methods": [],
+          "props": {
+            "size": {
+              "defaultValue": {
+                "value": 3
+              },
+              "description": "",
+              "name": "size",
+              "parent": {
+                "fileName": "/Users/aleksandra/workspace/emojis/emojis-lib/src/components/Emoji.tsx",
+                "name": "EmojiProps"
+              },
+              "required": false,
+              "type": {
+                "name": "number | undefined"
+              }
+            },
+            "animate": {
+              "defaultValue": {
+                "value": true
+              },
+              "description": "",
+              "name": "animate",
+              "parent": {
+                "fileName": "/Users/aleksandra/workspace/emojis/emojis-lib/src/components/Emoji.tsx",
+                "name": "EmojiProps"
+              },
+              "required": false,
+              "type": {
+                "name": "boolean | undefined"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "src/components/Love.tsx",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Love",
+          "methods": [],
+          "props": {
+            "size": {
+              "defaultValue": {
+                "value": 3
+              },
+              "description": "",
+              "name": "size",
+              "parent": {
+                "fileName": "/Users/aleksandra/workspace/emojis/emojis-lib/src/components/Emoji.tsx",
+                "name": "EmojiProps"
+              },
+              "required": false,
+              "type": {
+                "name": "number | undefined"
+              }
+            },
+            "animate": {
+              "defaultValue": {
+                "value": true
+              },
+              "description": "",
+              "name": "animate",
+              "parent": {
+                "fileName": "/Users/aleksandra/workspace/emojis/emojis-lib/src/components/Emoji.tsx",
+                "name": "EmojiProps"
+              },
+              "required": false,
+              "type": {
+                "name": "boolean | undefined"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

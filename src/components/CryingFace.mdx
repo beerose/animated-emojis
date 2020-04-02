@@ -1,0 +1,46 @@
+---
+name: CryingFace
+menu: Components
+---
+
+import { Playground, Props } from 'docz';
+import { CryingFace } from './CryingFace.tsx';
+
+# Crying Face
+
+## Properties
+
+<Props of={CryingFace} />
+
+## Basic usage
+
+<Playground>
+  <CryingFace />
+</Playground>
+
+## Different sizes
+
+<Playground>
+  <div style={{display: "flex", padding: 20, flexWrap: 'wrap'}}>
+    <CryingFace size={3} />
+    <CryingFace size={4} />
+    <CryingFace size={5} />
+    <CryingFace size={6} />
+    <CryingFace size={7} />
+    <CryingFace size={8} />
+    <CryingFace size={9} />
+    <CryingFace size={10} />
+  </div>
+</Playground>
+
+## Without the tear
+
+<Playground>
+  <CryingFace showTear={false} />
+</Playground>
+
+## No animations
+
+<Playground>
+  <CryingFace animate={false} />
+</Playground>

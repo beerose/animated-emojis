@@ -1,0 +1,40 @@
+---
+name: Fear
+menu: Components
+---
+
+import { Playground, Props } from 'docz';
+import { Fear } from './Fear.tsx';
+
+# Fear Emoji
+
+## Properties
+
+<Props of={Fear} />
+
+## Basic usage
+
+<Playground>
+  <Fear />
+</Playground>
+
+## Different sizes
+
+<Playground>
+  <div style={{display: "flex", padding: 20, flexWrap: 'wrap'}}>
+    <Fear size={3} />
+    <Fear size={4} />
+    <Fear size={5} />
+    <Fear size={6} />
+    <Fear size={7} />
+    <Fear size={8} />
+    <Fear size={9} />
+    <Fear size={10} />
+  </div>
+</Playground>
+
+## No animations
+
+<Playground>
+  <Fear animate={false} />
+</Playground>

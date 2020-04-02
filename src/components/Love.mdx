@@ -1,0 +1,40 @@
+---
+name: Love
+menu: Components
+---
+
+import { Playground, Props } from 'docz';
+import { Love } from './Love.tsx';
+
+# Love Emoji
+
+## Properties
+
+<Props of={Love} />
+
+## Basic usage
+
+<Playground>
+  <Love />
+</Playground>
+
+## Different sizes
+
+<Playground>
+  <div style={{display: "flex", padding: 20, flexWrap: 'wrap'}}>
+    <Love size={3} />
+    <Love size={4} />
+    <Love size={5} />
+    <Love size={6} />
+    <Love size={7} />
+    <Love size={8} />
+    <Love size={9} />
+    <Love size={10} />
+  </div>
+</Playground>
+
+## No animations
+
+<Playground>
+  <Love animate={false} />
+</Playground>
